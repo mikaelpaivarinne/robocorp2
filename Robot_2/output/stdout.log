@@ -1,0 +1,18 @@
+
+Collecting tasks from: tasks.py
+================== Running: [96morder_robots_from_RobotSpareBin1[0m ===================
+[96morder_robots_from_RobotSpareBin1[0m status: [91mFAIL
+[0m[91m
+fill_and_submit_robot_data() missing 1 required positional argument: 'order'
+[0m========== Full Traceback (running [96morder_robots_from_RobotSpareBin1[0m) ===========
+[91mTraceback (most recent call last):
+  File "C:\ProgramData\robocorp\ht\f0256a0_b1f3c24_1c0bc041\lib\site-packages\robocorp\tasks\_commands.py", line 438, in run
+    result = task.run(*args, **kwargs)
+  File "C:\ProgramData\robocorp\ht\f0256a0_b1f3c24_1c0bc041\lib\site-packages\robocorp\tasks\_task.py", line 78, in run
+    return self.method(*args, **kwargs)
+  File "f:\koulu\Robot_2\tasks.py", line 28, in order_robots_from_RobotSpareBin1
+    fill_and_submit_robot_data()
+TypeError: fill_and_submit_robot_data() missing 1 required positional argument: 'order'
+
+[0m================================================================================
+Robocorp Log (html): f:\koulu\Robot_2\output\log.html
